@@ -19,7 +19,7 @@ More than that tongue that more hath more express’d.
 O! learn to read what silent love hath writ:
 To hear with eyes belongs to love’s fine wit.";
 
-$censorInput = strtolower( $_GET['input']);;
+$censorInput = $_GET['input'];
 $censored_text = str_replace($censorInput, '***', $poetry);
 ?>
 
